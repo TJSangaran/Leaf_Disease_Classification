@@ -73,10 +73,3 @@ Our potato disease detection model is built using TensorFlow's Keras API. This a
 
 We used the Kaggle dataset to train machine learning or deep learning models for potato disease detection. The training process, model architectures, and results can be found in the [Model Training](./docs/model_training.md) documentation.
 
-
-
-## Installation
-
-1. Clone this repository to your local machine.
-   ```shell
-   git clone https://github.com/yourusername/potato-disease-detection.git
