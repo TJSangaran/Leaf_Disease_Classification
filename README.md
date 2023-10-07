@@ -1,4 +1,5 @@
 # Leaf_Disease_Classification
+
 Computer vision project
 
 # Potato Disease Detection Project
@@ -13,7 +14,7 @@ The main purpose of this project is to develop a system for early detection of p
 
 ## Dataset
 
-I have obtained a labeled dataset of potato plant leaves from Kaggle, which serves as the foundation of our potato disease detection project. This dataset includes images of potato leaves with corresponding labels indicating whether they are healthy or affected by early blight, late blight, or other diseases. The dataset is available on Kaggle at [link_to_dataset]([https://www.kaggle.com/yourusername/potato-leaf-dataset](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset)).
+I have obtained a labeled dataset of potato plant leaves from Kaggle, which serves as the foundation of our potato disease detection project. This dataset includes images of potato leaves with corresponding labels indicating whether they are healthy or affected by early blight, late blight, or other diseases. The dataset is available on Kaggle at [link_to_dataset](<[https://www.kaggle.com/yourusername/potato-leaf-dataset](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset)>).
 
 ## Used Technologies
 
@@ -36,13 +37,14 @@ This project utilizes the following technologies:
 The dataset is divided into training, validation, and testing sets to facilitate model training and evaluation. We have utilized this dataset to train and validate our disease detection models.
 
 Please refer to the dataset's Kaggle page for more details on its usage and licensing.
- 
+
+![Image Alt Text](./output.png)
+
 ## Data Preprocessing
 
 Before training our potato disease detection models, we performed several data preprocessing steps to enhance the quality and diversity of our dataset. These steps include:
 
 - **Rescaling**: We rescaled the pixel values of the images to a normalized range.
-
 
 - **Resizing**: To standardize the input dimensions for our models, we resized all images to a common resolution (e.g., 256x256 pixels).
 
@@ -68,8 +70,6 @@ Our potato disease detection model is built using TensorFlow's Keras API. This a
 
 - **Model Building**: To complete the model's construction, we utilize the `model.build()` statement, specifying the input shape.
 
-
 ## Model Training
 
 We used the Kaggle dataset to train machine learning or deep learning models for potato disease detection. The training process, model architectures, and results can be found in the [Model Training](./docs/model_training.md) documentation.
-
